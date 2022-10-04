@@ -1,7 +1,32 @@
-*{}
+*{
+    font-family: sans-serif;
+}
 
+body{
+    background-color: blueviolet;
+    color: white;
+}
 .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
+    margin: auto ;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    border-radius: 2rem;
+    margin-top: 2px;
+}
+
+button {
+    border-radius: 2px;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+    background-color:white ;
 }
